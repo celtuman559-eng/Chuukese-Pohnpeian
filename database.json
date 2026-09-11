@@ -1,0 +1,70 @@
+[
+  {
+    "concept_id": "C001",
+    "english_meaning": "good morning",
+    "semantic_category": "greetings",
+    "dialogue_type": "statement",
+    "chuukese": {
+      "phrase": "Nesor annim",
+      "ipa_phonetics": "/nesor anːim/",
+      "notes": "Literally: ne (in/at) + sor (morning) + annim (good)."
+    },
+    "pohnpeian": {
+      "phrase": "Ni menseng mwahu",
+      "ipa_phonetics": "/ni mensəŋ mwaːhu/",
+      "notes": "Literally: ni (at) + menseng (morning) + mwahu (good)."
+    },
+    "linguistic_overlap": "High (shared structural compounding architecture)"
+  },
+  {
+    "concept_id": "C002",
+    "english_meaning": "how are you?",
+    "semantic_category": "greetings",
+    "dialogue_type": "question",
+    "chuukese": {
+      "phrase": "Ifa usum?",
+      "ipa_phonetics": "/ifa usum/",
+      "notes": "Used as a standard question to gauge well-being."
+    },
+    "pohnpeian": {
+      "phrase": "Ia iromw?",
+      "ipa_phonetics": "/ia iromw/",
+      "notes": "Informal singular form. 'Ia iromwi' is used for formal situations."
+    },
+    "linguistic_overlap": "High (cognates: 'Ifa' and 'Ia' both mean 'How/Where')"
+  },
+  {
+    "concept_id": "C003",
+    "english_meaning": "What is your name?",
+    "semantic_category": "identification",
+    "dialogue_type": "question",
+    "chuukese": {
+      "phrase": "Ifa itom?",
+      "ipa_phonetics": "/ifa itom/",
+      "notes": "Uses 'ifa' (how/what) combined with 'itom' (your name)."
+    },
+    "pohnpeian": {
+      "phrase": "Ia edomw?",
+      "ipa_phonetics": "/ia edomw/",
+      "notes": "Uses 'ia' (how/what) combined with 'edomw' (your name)."
+    },
+    "linguistic_overlap": "Very High (direct phonetic cognates across both words)"
+  },
+  {
+    "concept_id": "C004",
+    "english_meaning": "My name is...",
+    "semantic_category": "identification",
+    "dialogue_type": "answer",
+    "chuukese": {
+      "phrase": "Itei...",
+      "ipa_phonetics": "/itei/",
+      "notes": "Followed immediately by the person's name."
+    },
+    "pohnpeian": {
+      "phrase": "Edei...",
+      "ipa_phonetics": "/edei/",
+      "notes": "Followed immediately by the person's name."
+    },
+    "linguistic_overlap": "Very High (direct phonetic roots for 'my name')"
+  }
+]
