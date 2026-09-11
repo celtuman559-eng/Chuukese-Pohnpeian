@@ -1,0 +1,5 @@
+concept_id,english_meaning,semantic_category,dialogue_type,chuukese_phrase,chuukese_ipa,pohnpeian_phrase,pohnpeian_ipa,linguistic_overlap
+C001,good morning,greetings,statement,Nesor annim,/nesor anːim/,Ni menseng mwahu,/ni mensəŋ mwaːhu/,High (shared structural compounding architecture)
+C002,how are you?,greetings,question,Ifa usum?,/ifa usum/,Ia iromw?,/ia iromw/,High (cognates: 'Ifa' and 'Ia' both mean 'How/Where')
+C003,what is your name?,identification,question,Ifa itom?,/ifa itom/,Ia edomw?,/ia edomw/,Very High (direct phonetic cognates across both words)
+C004,my name is...,identification,answer,Itei...,/itei/,Edei...,/edei/,Very High (direct phonetic roots for 'my name')
