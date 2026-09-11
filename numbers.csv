@@ -1,27 +1,11 @@
--- Create table with your exact column naming convention
-CREATE TABLE micronesian_linguistic_lexicon (
-    concept_id VARCHAR(10) PRIMARY KEY,
-    english_meaning VARCHAR(100) NOT NULL,
-    semantic_category VARCHAR(50) NOT NULL,
-    dialogue_type VARCHAR(50) NOT NULL,
-    chuukese_phrase VARCHAR(100) NOT NULL,
-    chuukese_ipa VARCHAR(100) NOT NULL,
-    pohnpeian_phrase VARCHAR(100) NOT NULL,
-    pohnpeian_ipa VARCHAR(100) NOT NULL,
-    linguistic_overlap VARCHAR(100) NOT NULL
-);
-
--- Insert dataset for numbers 1 to 10 matching your style guide
-INSERT INTO micronesian_linguistic_lexicon 
-(concept_id, english_meaning, semantic_category, dialogue_type, chuukese_phrase, chuukese_ipa, pohnpeian_phrase, pohnpeian_ipa, linguistic_overlap) 
-VALUES
-('C005', 'One', 'numbers', 'statement', 'Ew', '/ɛw/', 'Ehu', '/ɛ.hu/', 'High (shared Proto-Micronesian root *ewu)'),
-('C006', 'Two', 'numbers', 'statement', 'Ruu', '/ruː/', 'Riau', '/ri.au/', 'High (shared Proto-Micronesian root *rua)'),
-('C007', 'Three', 'numbers', 'statement', 'Unungat', '/u.nu.ŋat/', 'Silu', '/si.lu/', 'Low (divergent roots and numeric classifiers)'),
-('C008', 'Four', 'numbers', 'statement', 'Ruanu', '/ru.a.nu/', 'Pahieu', '/pa.hi.ɛu/', 'Medium (different classifier suffix systems)'),
-('C009', 'Five', 'numbers', 'statement', 'Nimu', '/ni.mu/', 'Limau', '/li.mau/', 'High (phonetic shift: Chuukese n- to Pohnpeian l-)'),
-('C010', 'Six', 'numbers', 'statement', 'Wonou', '/wɔ.nɔu/', 'Wenou', '/wɛ.nɔu/', 'Very High (near-identical phonetic alignment)'),
-('C011', 'Seven', 'numbers', 'statement', 'Fisuu', '/fi.suː/', 'Isuh', '/i.suh/', 'High (cognates; characteristic f-drop in Pohnpeian)'),
-('C012', 'Eight', 'numbers', 'statement', 'Wanu', '/wa.nu/', 'Waluh', '/wa.luh/', 'High (phonetic shift: Chuukese n- to Pohnpeian l-)'),
-('C013', 'Nine', 'numbers', 'statement', 'Tiiw', '/tiːw/', 'Duwah', '/du.wah/', 'High (cognates with regular t/d voicing shift)'),
-('C014', 'Ten', 'numbers', 'statement', 'Engon', '/ɛ.ŋɔn/', 'Aisek', '/ai.sɛk/', 'Low (completely divergent counting system bases)');
+concept_id,english_meaning,semantic_category,dialogue_type,chuukese_phrase,chuukese_ipa,pohnpeian_phrase,pohnpeian_ipa,linguistic_overlap
+C005,One,numbers,statement,Ew,/ɛw/,Ehu,/ɛ.hu/,High (shared Proto-Micronesian root *ewu)
+C006,Two,numbers,statement,Ruu,/ruː/,Riau,/ri.au/,High (shared Proto-Micronesian root *rua)
+C007,Three,numbers,statement,Unungat,/u.nu.ŋat/,Silu,/si.lu/,Low (divergent roots and numeric classifiers)
+C008,Four,numbers,statement,Ruanu,/ru.a.nu/,Pahieu,/pa.hi.ɛu/,Medium (different classifier suffix systems)
+C009,Five,numbers,statement,Nimu,/ni.mu/,Limau,/li.mau/,High (phonetic shift: Chuukese n- to Pohnpeian l-)
+C010,Six,numbers,statement,Wonou,/wɔ.nɔu/,Wenou,/wɛ.nɔu/,Very High (near-identical phonetic alignment)
+C011,Seven,numbers,statement,Fisuu,/fi.suː/,Isuh,/i.suh/,High (cognates; characteristic f-drop in Pohnpeian)
+C012,Eight,numbers,statement,Wanu,/wa.nu/,Waluh,/wa.luh/,High (phonetic shift: Chuukese n- to Pohnpeian l-)
+C013,Nine,numbers,statement,Tiiw,/tiːw/,Duwah,/du.wah/,High (cognates with regular t/d voicing shift)
+C014,Ten,numbers,statement,Engon,/ɛ.ŋɔn/,Aisek,/ai.sɛk/,Low (completely divergent counting system bases)
